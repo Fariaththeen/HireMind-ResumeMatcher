@@ -1,0 +1,32 @@
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+from .database import init_db
+from .routers import jobs, resumes, matching
+
+app = FastAPI(
+    title="Resume-Job Matcher API",
+    version="1.0.0",
+    description="Match resumes with job descriptions based on skills"
+)
+
+# CORS middleware
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# Include routers
+app.include_router(jobs.router, prefix="/api/jobs", tags=["Jobs"])
+app.include_router(resumes.router, prefix="/api/resumes", tags=["Resumes"])
+app.include_router(matching.router, prefix="/api/match", tags=["Matching"])
+
+@app.on_event("startup")
+async def startup_event():
+    await init_db()
+
+@app.get("/api/health", response_model=dict)
+async def health_check():
+    return {"status": "healthy", "version": "1.0.0"}

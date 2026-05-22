@@ -1,0 +1,20 @@
+{
+    "technical": [
+        "Python", "Java", "JavaScript", "TypeScript", "C++", "Rust", "Go",
+        "React", "Angular", "Vue.js", "Node.js", "Django", "Flask", "FastAPI",
+        "SQL", "PostgreSQL", "MongoDB", "MySQL", "Redis",
+        "AWS", "Azure", "GCP", "Docker", "Kubernetes", "CI/CD",
+        "Machine Learning", "Deep Learning", "NLP", "Computer Vision",
+        "TensorFlow", "PyTorch", "Scikit-learn", "Pandas", "NumPy",
+        "Git", "Linux", "REST API", "GraphQL", "Microservices"
+    ],
+    "soft": [
+        "Project Management", "Team Leadership", "Agile", "Scrum",
+        "Communication", "Problem Solving", "Critical Thinking",
+        "Time Management", "Collaboration", "Mentoring"
+    ],
+    "domain": [
+        "Data Analysis", "Business Intelligence", "DevOps", "Cybersecurity",
+        "Cloud Architecture", "Data Engineering", "Product Management"
+    ]
+}

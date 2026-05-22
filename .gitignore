@@ -1,0 +1,48 @@
+# System files
+.DS_Store
+Thumbs.db
+.Spotlight-V100
+.Trashes
+
+# Node / Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Python / Backend
+venv/
+ENV/
+env/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.tox/
+
+# Local databases and SQLite
+*.db
+*.db-journal
+*.sqlite3
+
+# Uploads and temporary files
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Environment files
+.env
+.env.local
+.env.*.local
+*.env
+backend/.env
+frontend/.env

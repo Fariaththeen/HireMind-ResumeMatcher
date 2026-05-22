@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white text-gray-900 antialiased font-sans;
+  }
+}
+
+@layer components {
+  .gradient-bg {
+    @apply bg-gradient-to-br from-primary-500 to-primary-700;
+  }
+  
+  .card-hover {
+    @apply transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5;
+  }
+
+  .mesh-gradient {
+    background-color: #ffffff;
+    background-image: 
+      radial-gradient(at 0% 0%, hsla(210,100%,95%,1) 0px, transparent 50%),
+      radial-gradient(at 100% 0%, hsla(30,100%,95%,1) 0px, transparent 50%),
+      radial-gradient(at 100% 100%, hsla(240,100%,95%,1) 0px, transparent 50%),
+      radial-gradient(at 0% 100%, hsla(280,100%,95%,1) 0px, transparent 50%);
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-gray-900 via-gray-800 to-gray-600;
+  }
+
+  .glass-card {
+    @apply bg-white/80 backdrop-blur-md border border-white/50 shadow-xl;
+  }
+
+  .soft-shadow {
+    box-shadow: 0 20px 40px -15px rgba(0,0,0,0.05);
+  }
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" fill="none">
+  <!-- Indigo background matching rounded-xl shadow-md shadow-indigo-600/20 -->
+  <rect x="32" y="32" width="448" height="448" rx="112" fill="#4f46e5" />
+  
+  <!-- White Layers icon centered -->
+  <g transform="translate(88, 88) scale(14)" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="m12 3-10 5 10 5 10-5-10-5Z"/>
+    <path d="m2 17 10 5 10-5"/>
+    <path d="m2 12 10 5 10-5"/>
+  </g>
+</svg>

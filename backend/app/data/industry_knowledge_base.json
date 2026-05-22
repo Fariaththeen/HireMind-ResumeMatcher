@@ -1,0 +1,57 @@
+[
+  {
+    "category": "industry_benchmarks",
+    "role_keyword": "python",
+    "content": "For a strong Python Developer candidate, look for deep understanding of asyncio, PEP 8 code compliance, testing practices using pytest, SQL/NoSQL databases, microservices architecture, and backend frameworks like FastAPI or Django."
+  },
+  {
+    "category": "industry_benchmarks",
+    "role_keyword": "react",
+    "content": "For Frontend/React developers, industry benchmarks prioritize state management (Zustand, Redux, Context API), responsive layouts, TailwindCSS, performance optimization (lazy loading, virtual lists), and clean TypeScript practices."
+  },
+  {
+    "category": "industry_benchmarks",
+    "role_keyword": "devops",
+    "content": "DevOps roles require experience with containerization (Docker), orchestration (Kubernetes), Infrastructure as Code (Terraform), CI/CD pipelines (GitHub Actions, GitLab CI), and cloud provider administration (AWS, Azure, GCP)."
+  },
+  {
+    "category": "industry_benchmarks",
+    "role_keyword": "mechanical",
+    "content": "For Mechanical Engineers, industry benchmarks require strong knowledge of CAD/CAM systems (SolidWorks, AutoCAD), thermodynamics, structural mechanics, finite element analysis (FEA), materials science, and product design lifecycles."
+  },
+  {
+    "category": "industry_benchmarks",
+    "role_keyword": "general",
+    "content": "A high-quality software candidate demonstrates clean coding standards, robust unit testing coverage, familiarity with version control via Git, documentation quality, and API design principles."
+  },
+  {
+    "category": "company_context",
+    "role_keyword": "general",
+    "content": "Recruiters and hiring managers highly value rapid prototyping capability, remote/hybrid team collaboration, agile delivery frameworks (Scrum/Kanban), clear written communication, and growth mindset."
+  },
+  {
+    "category": "company_context",
+    "role_keyword": "engineering",
+    "content": "Engineering team standards emphasize code review participation, scalability awareness, active system debugging, and a focus on product security best practices."
+  },
+  {
+    "category": "career_path",
+    "role_keyword": "senior",
+    "content": "Typical career progression to a Senior Engineer role requires moving from individual feature delivery to system architecture design, database performance optimization, mentoring junior staff, and leading project releases."
+  },
+  {
+    "category": "career_path",
+    "role_keyword": "general",
+    "content": "Standard professional career growth displays progressive increase in responsibilities, leading technical initiatives, owning key code repositories, and showing deep business/domain impact."
+  },
+  {
+    "category": "red_flags",
+    "role_keyword": "general",
+    "content": "Recruiter-reported red flags include keyword stuffing without context, high job-hopping history (less than 6 months per role repeatedly) without context, lack of quantifiable impact metrics, and unexplained multi-year gaps."
+  },
+  {
+    "category": "red_flags",
+    "role_keyword": "technical",
+    "content": "Technical resume concerns include lack of familiarity with modern tools, claiming expert-level skill without professional project application, and neglecting to mention testing or code quality frameworks."
+  }
+]

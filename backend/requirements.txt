@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pdfplumber
+python-docx
+spacy
+rapidfuzz
+pydantic
+sqlalchemy
+aiosqlite
+python-dotenv
+greenlet
+pytest
+pytest-asyncio
+groq
